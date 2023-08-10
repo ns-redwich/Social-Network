@@ -1,0 +1,22 @@
+.preloaderMain {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(229, 228, 228);
+}
+
+.App {
+  width: 100%;
+  margin: 0 auto;
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgb(240, 240, 240) 71%, rgb(239, 239, 239) 100%);
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1280px) {
+  .container {
+    width: 100%;
+  }
+}

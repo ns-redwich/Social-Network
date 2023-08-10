@@ -1,0 +1,41 @@
+.post_list {
+  width: 99%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 20px; 
+}
+
+.post_list_item {
+  width: auto;
+  height: auto;
+  padding: 20px 15px;
+}
+
+.user {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.user_avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background: #000;
+}
+
+.user_name {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  color: #000;
+}
+
+.post_list_item_p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #000;
+  margin-top: 10px;
+}
